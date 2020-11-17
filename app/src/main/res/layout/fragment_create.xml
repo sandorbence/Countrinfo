@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:stretchColumns="1"
+    tools:context=".InfoListActivity"
+    android:padding="5dp">
+
+    <TableRow>
+
+        <AutoCompleteTextView
+            android:id="@+id/tvCountryName"
+            android:layout_width="match_parent"
+            android:layout_span="2"
+            android:hint="@string/hintCountry" />
+    </TableRow>
+
+    <TableRow>
+
+        <EditText
+            android:id="@+id/etInfoDescription"
+            android:layout_width="match_parent"
+            android:layout_span="2"
+            android:hint="@string/hintComment" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btnCreateInfo"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:text="@string/btnOk"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCancelCreateInfo"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:text="@string/btnCancel"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+</TableLayout>

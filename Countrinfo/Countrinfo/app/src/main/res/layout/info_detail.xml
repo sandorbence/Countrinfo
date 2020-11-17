@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1">
+
+    <TableRow>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/capital" />
+
+        <TextView xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/tvCapital"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textSize="@dimen/tvInfo"
+            tools:context=".InfoDetailFragment" />
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/population" />
+
+        <TextView xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/tvPopulation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textSize="@dimen/tvInfo"
+            tools:context=".InfoDetailFragment" />
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/language" />
+
+        <TextView xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/tvLanguage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textSize="@dimen/tvInfo"
+            tools:context=".InfoDetailFragment" />
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/currency" />
+
+        <TextView xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/tvCurrency"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textSize="@dimen/tvInfo"
+            tools:context=".InfoDetailFragment" />
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/nativename" />
+
+        <TextView xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/tvNative"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textSize="@dimen/tvInfo"
+            tools:context=".InfoDetailFragment" />
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/area" />
+
+        <TextView xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/tvArea"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textSize="@dimen/tvInfo"
+            tools:context=".InfoDetailFragment" />
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/tvComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/comment"
+            android:textSize="@dimen/tvInfo"
+            tools:context=".InfoDetailFragment" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etComment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:met_maxCharacters="400" />
+
+        <com.dd.CircularProgressButton
+            android:id="@+id/btnComment"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="5dp"
+            android:padding="0dp"
+            app:cpb_paddingProgress="10dp" />
+
+
+    </LinearLayout>
+
+</TableLayout>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Countrinfo</string>
+    <string name="title_activity_maps">Countrinfo</string>
+    <string name="google_api_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCk0dZ9kEPIOpi_Mb3lF3grsFYhQq10WYw</string>
+    <string name="button_add">Add to favourites</string>
+    <string name="options_comment">Write a comment</string>
+    <string name="title_region_list">Regions</string>
+    <string name="title_region_detail">Region Detail</string>
+    <string name="title_info_list">Countries you follow</string>
+    <string name="title_info_detail">Info Detail</string>
+    <string name="lblInfoTitle">Country</string>
+    <string name="lblInfoDescription">Your comment</string>
+    <string name="btnOk">Add</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="country">Country</string>
+    <string name="itemCreateInfo">Add country</string>
+    <string name="itemDeleteInfos">Delete all</string>
+    <string name="itemGoToList">My countries list</string>
+    <string name="itemExitApp">Exit Countrinfo</string>
+    <string name="btnAddFromMarker">Add country to favourites</string>
+    <string name="btnBack">Back to map</string>
+    <string name="population">Population: %s</string>
+    <string name="capital">Capital: %s</string>
+    <string name="area">Area: %s</string>
+    <string name="nativeName">Native name: %s</string>
+    <string name="comment">Your comment on this country:</string>
+    <string name="language">Spoken languages: %s</string>
+    <string name="currency">Currencies (name and code): %s; %s</string>
+    <string name="hintComment">Write a comment...</string>
+    <string name="hintCountry">Search for a country...</string>
+    <string name="commentDefault">You haven\'t commented on this country yet.</string>
+    <string name="btnComment">Save my comment</string>
+    <string name="btnComplete">Comment saved!</string>
+</resources>
